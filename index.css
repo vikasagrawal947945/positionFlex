@@ -1,0 +1,42 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: Poppins , sans-serif;
+     font-weight: 400;
+}
+.boxes{
+     display: flex;
+    justify-content: space-around;
+}
+.box{
+    width: 30%;
+    border: 2px solid maroon;
+    padding: 2rem;
+     border-radius: 24px;
+     margin-top: 3rem;
+     position: relative;
+}
+.box p{
+     margin-top: 1rem;
+     text-align: justify;
+}
+.box h2{
+     font-weight: 700;
+}
+
+.box i {
+     font-size: 2rem;
+     width: 70px;
+     height: 70px;
+    border: 2px solid maroon;
+     border-radius: 50%;
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+      top: -11%;
+      left: 40%;
+      background-color: black;
+      color: white;
+}
