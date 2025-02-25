@@ -29,7 +29,7 @@
      font-size: 2rem;
      width: 70px;
      height: 70px;
-    border: 2px solid maroon;
+    border-bottom: 4px solid maroon;
      border-radius: 50%;
      position: absolute;
      display: flex;

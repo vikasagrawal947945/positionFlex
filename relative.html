@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Position Overlapping</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin-bottom: 10px;
+        }
+        .relative-box {
+            position: relative;
+            top: -50px; /* 👈 Upar move kiya, lekin space reserve raha */
+            background-color: green;
+        }
+    
+    </style>
+</head>
+<body>
+
+    <div class="box">Box 1</div>
+    <div class="box relative-box">Relative Box</div>
+    <div class="box">Box 3</div>
+
+</body>
+</html>
